@@ -5,7 +5,7 @@ function Index(){
     return(
         <>
         
-        <Home />
+        <Home usuario={"Pedro's Barbershop"}/>
         <Nav></Nav>
         </>
     )
