@@ -1,0 +1,12 @@
+.title{
+    width: 70vw;
+    margin: 1vw 15vw;
+    text-align: center;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 4vw;
+}
+.title img{
+    width: 12vw;
+    margin-bottom: -5vw;
+}

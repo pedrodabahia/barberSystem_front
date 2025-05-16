@@ -2,12 +2,7 @@ import vendaIcon from '../images/vendaIcon.png'
 import lixeiraIcon from '../images/lixeiraIcon.png'
 import './boxHorario.css'
 
-function Boxer(){
-    const horario = "10:00 - 10:30";
-    const servico = "corte + barba";
-    const valor = 45.00;
-    const cliente = "João da Silva";
-
+function Boxer({horario, servico, valor, cliente}){
     return(
         
         <>

@@ -1,9 +1,9 @@
 .navigationBtn{
     display: flex;
     align-items: baseline;
-    background-color:white;
+    background-color: #f2f2f2;
     backdrop-filter: blur(20px);
-    box-shadow: 0 -2vw 1vw white;
+    box-shadow: 0 -2vw 1vw #f2f2f2;
     
 }
 .navigationBtn .buttonNav{

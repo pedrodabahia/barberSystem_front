@@ -39,16 +39,7 @@ function Home({usuario}){
         </div>
         <div class="agendaHoje">
             <h1 id='title'>Agendamentos de Hoje</h1>
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
-            <BoxHorario />
+            <BoxHorario valor={45} cliente={"Joilson de olivei."} horario={"08:00 - 08:30"} servico={"corte + platinado"}/>
             
         </div>
         </>
