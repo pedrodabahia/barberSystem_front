@@ -5,8 +5,29 @@
     font-size: 2.5vw;
     position: absolute;
     top: 4vw;
+    color: black;
 }
 .title img{
     width: 12vw;
     margin-bottom: -5vw;
+}
+
+.cards{
+    position: absolute;
+    top: 50vw;
+}
+
+.cadService, .buttonCorte{
+   background-color: #333333;
+   margin: 0 10vw;
+   border-radius: 3vw;
+   width: 80vw;
+   height: 28vw;
+   min-height: 28vw;
+   display: flex;
+   align-items: center;
+   justify-content: center ; 
+}
+.cadService img{
+    width: 12vw;
 }
