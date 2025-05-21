@@ -1,0 +1,13 @@
+.iconOptions{
+    height: 100%;
+    width: 25%;
+    border-left: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconOptions img{
+    width: 70%;
+    height: 70%;
+    margin-left: 2vw;
+}

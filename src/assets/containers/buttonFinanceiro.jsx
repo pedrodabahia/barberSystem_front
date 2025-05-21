@@ -1,4 +1,6 @@
 import checkIcon from '../images/checkIcon.png'
+import './buttonFinanceiro.css'
+
 
 function Financeiro({horario,servico,valor,cliente,vendaIcon,lixeiraIcon}){
     return(
@@ -12,7 +14,7 @@ function Financeiro({horario,servico,valor,cliente,vendaIcon,lixeiraIcon}){
                     </div>
                     <h1>{cliente}</h1>
                 </div>
-                <div class="buttonOptions" id="concluidoBtn">
+                <div class="iconOptions" id="concluidoIcon">
                     <img src={checkIcon} />
                 </div>
             </div>

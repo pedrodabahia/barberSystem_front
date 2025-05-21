@@ -1,6 +1,9 @@
+body{
+    padding-bottom: 50vw;
+}
 .title{
     width: 70vw;
-    margin: 1vw 15vw;
+    margin: 0vw 15vw;
     text-align: center;
     font-size: 2.5vw;
     position: absolute;
@@ -8,6 +11,33 @@
     color: black;
 }
 .title img{
-    width: 12vw;
+    width: 10vw;
     margin-bottom: -5vw;
+}
+.cards .cardService{
+    display: block;
+    background-color: #333333;
+    margin: 0 10vw;
+    margin-top: -6vw;
+    padding: 2vw 0 6vw 0;
+    border-radius: 8vw;
+    width: 80vw;
+    height: content;
+    min-height: 28vw;
+    text-align: center;
+}
+.cards .cardService h1,.cards .cardService h2, .cards .cardService img{
+    margin: 2vw 0 0 0 ;
+    width: 12vw;
+    color: white;
+    font-size: 12vw;
+    text-align: center;
+}
+.cards .cardService h1{
+    width:100%;
+}
+
+.cards .cardService h2{
+    width:100%;
+    font-size: 5vw;
 }
